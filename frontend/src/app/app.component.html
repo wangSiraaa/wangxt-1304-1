@@ -1,0 +1,23 @@
+<nav class="layout-sidebar">
+  <div class="sidebar-header">
+    <i class="pi pi-send" style="font-size:1.5rem;color:#fff;margin-right:8px"></i>
+    <span class="sidebar-title">移动采血车管理</span>
+  </div>
+  <ul class="sidebar-menu">
+    <li><a routerLink="/collection-points" routerLinkActive="active"><i class="pi pi-map-marker"></i> 外采排班</a></li>
+    <li><a routerLink="/appointments" routerLinkActive="active"><i class="pi pi-calendar"></i> 献血预约</a></li>
+    <li><a routerLink="/vehicles" routerLinkActive="active"><i class="pi pi-car"></i> 车辆库位</a></li>
+    <li><a routerLink="/inspections" routerLinkActive="active"><i class="pi pi-check-circle"></i> 车辆点检</a></li>
+    <li><a routerLink="/blood-bags" routerLinkActive="active"><i class="pi pi-box"></i> 采血袋管理</a></li>
+    <li><a routerLink="/temperature" routerLinkActive="active"><i class="pi pi-thermometer"></i> 温度监控</a></li>
+    <li><a routerLink="/handovers" routerLinkActive="active"><i class="pi pi-arrow-right-arrow-left"></i> 回站交接</a></li>
+  </ul>
+</nav>
+<div class="layout-main">
+  <div class="layout-topbar">
+    <span class="topbar-title">移动采血车外采排班系统</span>
+  </div>
+  <div class="layout-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

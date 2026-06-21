@@ -1,0 +1,6 @@
+@BloodMobileApi_HostAddress = http://localhost:5270
+
+GET {{BloodMobileApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
